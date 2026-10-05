@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GramUdyam - A multilingual educational platform for rural entrepreneurship in simple English, Marathi and Hindi.">
+  <meta name="theme-color" content="#15803d">
+  <title>GramUdyam - Rural Entrepreneurship Learning</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="header-nav" id="top">
+    <div class="container nav-container">
+      <a href="#top" class="nav-brand" aria-label="GramUdyam Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <!-- Sprout & Gear Rural Emblem SVG -->
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 20h10" />
+            <path d="M12 20v-8" />
+            <path d="M12 12c-3.5 0-7-2-7-6a7 7 0 0 1 7-2 7 7 0 0 1 7 2c0 4-3.5 6-7 6z" />
+          </svg>
+        </div>
+        <div class="brand-text-group">
+          <span class="brand-name" id="nav-logo-text">GramUdyam</span>
+          <span class="brand-tagline">Rural Entrepreneurship</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navbar-menu">
+          <li><a href="#top" class="nav-link" id="nav-link-home">Home</a></li>
+          <li><a href="#learn" class="nav-link" id="nav-link-learn">Learn</a></li>
+          <li><a href="#ideas" class="nav-link" id="nav-link-ideas">Business Ideas</a></li>
+          <li><a href="#schemes" class="nav-link" id="nav-link-schemes">Schemes</a></li>
+          <li><a href="#about" class="nav-link" id="nav-link-about">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- Language Selector & Mobile Toggle -->
+      <div class="nav-actions">
+        <div class="lang-selector-group" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+          <button type="button" class="lang-btn" data-lang="mr" aria-pressed="false">मराठी</button>
+          <button type="button" class="lang-btn" data-lang="hi" aria-pressed="false">हिंदी</button>
+        </div>
+
+        <button type="button" class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="hero-tag" id="hero-tag">College Mini Project • Rural Empowerment</span>
+          <h1 class="hero-title" id="hero-title">Learn. Start. Grow.</h1>
+          <p class="hero-subtitle" id="hero-subtitle">Simple entrepreneurship knowledge for rural communities.</p>
+          <p class="hero-desc" id="hero-desc">
+            GramUdyam helps rural entrepreneurs learn basic business concepts, discover business ideas and understand useful government schemes in simple local languages.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#learn" class="btn btn-primary" id="hero-btn-learn">Start Learning</a>
+            <a href="#schemes" class="btn btn-secondary" id="hero-btn-schemes">Explore Schemes</a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <span class="stat-number" id="stat-1-title">3 Languages</span>
+              <span class="stat-label" id="stat-1-desc">English, Marathi & Hindi</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="stat-number" id="stat-2-title">100% Free</span>
+              <span class="stat-label" id="stat-2-desc">Accessible to Everyone</span>
+            </div>
+            <div class="hero-stat-card">
+              <span class="stat-number" id="stat-3-title">Practical</span>
+              <span class="stat-label" id="stat-3-desc">Real-world examples</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-illustration-wrapper">
+          <img src="assets/images/hero-illustration.svg" alt="Illustration representing rural entrepreneurs, farming produce and digital market growth" class="hero-svg-img" width="520" height="390">
+        </div>
+      </div>
+    </section>
+
+    <!-- Why GramUdyam? Section -->
+    <section class="section section-bg-white" id="why">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="why-heading">Why GramUdyam?</h2>
+          <p class="section-subtitle" id="why-subheading">Designed specifically to bridge the language gap in rural business education.</p>
+        </div>
+
+        <div class="why-grid">
+          <!-- Card 1 -->
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <!-- Language Icon -->
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+              </svg>
+            </div>
+            <h3 class="why-card-title" id="why-card-1-title">Local Language</h3>
+            <p class="why-card-desc" id="why-card-1-desc">Learn important business concepts in simple English, Marathi and Hindi.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <!-- Book / Easy Learn Icon -->
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+              </svg>
+            </div>
+            <h3 class="why-card-title" id="why-card-2-title">Easy Learning</h3>
+            <p class="why-card-desc" id="why-card-2-desc">Short and practical explanations designed for beginners.</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="why-card">
+            <div class="why-icon-box" aria-hidden="true">
+              <!-- Lightbulb / Info Icon -->
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="9" y1="18" x2="15" y2="18"/>
+                <line x1="10" y1="22" x2="14" y2="22"/>
+                <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/>
+              </svg>
+            </div>
+            <h3 class="why-card-title" id="why-card-3-title">Useful Information</h3>
+            <p class="why-card-desc" id="why-card-3-desc">Explore business ideas and basic information about government schemes.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learn Section (Entrepreneurship Learning) -->
+    <section class="section section-bg-light" id="learn">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="learn-heading">Entrepreneurship Learning</h2>
+          <p class="section-subtitle" id="learn-subheading">Short, practical lessons designed to help you start and manage a small rural enterprise.</p>
+        </div>
+
+        <!-- 5 Topic Cards Populated dynamically by script.js -->
+        <div class="learn-grid" id="learn-cards-grid"></div>
+      </div>
+    </section>
+
+    <!-- Business Ideas Section -->
+    <section class="section section-bg-white" id="ideas">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="ideas-heading">Rural Business Ideas</h2>
+          <p class="section-subtitle" id="ideas-subheading">Practical, high-potential ventures that can be started in villages with local resources.</p>
+        </div>
+
+        <!-- 6 Business Cards Populated dynamically by script.js -->
+        <div class="ideas-grid" id="ideas-cards-grid"></div>
+      </div>
+    </section>
+
+    <!-- Government Schemes Section -->
+    <section class="section section-bg-light" id="schemes">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="schemes-heading">Government Schemes</h2>
+          <p class="section-subtitle" id="schemes-subheading">Official government initiatives offering financial subsidies and loans for rural entrepreneurs.</p>
+        </div>
+
+        <!-- 3 Government Scheme Cards Populated dynamically by script.js -->
+        <div class="schemes-grid" id="schemes-cards-grid"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-bg-white" id="about">
+      <div class="container">
+        <div class="about-box">
+          <div class="about-header-group">
+            <span class="about-tagline" id="about-tagline">Academic Mini-Project for Social Impact</span>
+            <h2 class="section-title" id="about-heading" style="text-align: left; margin-bottom: 1rem;">About GramUdyam</h2>
+            <p class="about-main-desc" id="about-main-desc">
+              GramUdyam is a college mini-project designed to address the language and accessibility challenges faced by rural communities when accessing entrepreneurship learning materials.
+            </p>
+          </div>
+
+          <!-- Problem Statement Box -->
+          <div class="problem-callout">
+            <blockquote class="problem-quote" id="about-problem-quote">
+              "Digital content and training materials relevant to rural entrepreneurship are often not available or easily understandable in local languages and dialects prevalent across Maharashtra's diverse rural communities."
+            </blockquote>
+          </div>
+
+          <!-- Project Specs Grid -->
+          <h3 class="about-details-title" id="about-details-title" style="margin-bottom: 1rem; font-size: 1.15rem; font-weight: 700; color: var(--neutral-900);">Project Summary</h3>
+          <div class="about-specs-grid">
+            <div class="spec-item">
+              <div class="spec-label" id="about-label-theme">Project Theme</div>
+              <div class="spec-value" id="about-val-theme">Rural Entrepreneurship</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label" id="about-label-focus">Core Focus</div>
+              <div class="spec-value" id="about-val-focus">Local-language digital learning</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label" id="about-label-target">Target Users</div>
+              <div class="spec-value" id="about-val-target">Rural youth, women and aspiring small entrepreneurs</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-label" id="about-label-tech">Technology Stack</div>
+              <div class="spec-value" id="about-val-tech">HTML, CSS and JavaScript</div>
+            </div>
+          </div>
+
+          <!-- Text-to-Speech Feature Announcement Banner -->
+          <div class="about-tts-banner">
+            <span class="tts-banner-icon" aria-hidden="true">🔊</span>
+            <div class="tts-banner-text">
+              <h4 id="about-tts-title">Voice Accessibility (Text-to-Speech)</h4>
+              <p id="about-tts-desc">
+                GramUdyam includes a built-in browser speech synthesizer so users who prefer listening can have any learning topic read aloud in their chosen language.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col-main">
+          <div class="footer-brand" id="footer-brand">GramUdyam</div>
+          <p class="footer-tagline" id="footer-tagline">Making entrepreneurship knowledge simple and accessible.</p>
+          <span class="footer-disclaimer-badge" id="footer-disclaimer">College Mini Project</span>
+        </div>
+
+        <div class="footer-col-nav">
+          <h4 class="footer-nav-title" id="footer-nav-title">Quick Navigation</h4>
+          <ul class="footer-nav-links">
+            <li><a href="#top" id="footer-link-home">Home</a></li>
+            <li><a href="#learn" id="footer-link-learn">Learn</a></li>
+            <li><a href="#ideas" id="footer-link-ideas">Business Ideas</a></li>
+            <li><a href="#schemes" id="footer-link-schemes">Schemes</a></li>
+            <li><a href="#about" id="footer-link-about">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright" id="footer-copyright">
+          © 2026 GramUdyam. Built with HTML, CSS & Vanilla JavaScript. Free & Open for Educational Use.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Universal Modal for Learn Topics & Business Ideas -->
+  <div class="modal-wrapper" id="info-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-overlay"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <h3 class="modal-title" id="modal-title">Topic Information</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">✕</button>
+      </div>
+
+      <div class="modal-body" id="modal-body-content">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="tts-speaker-btn" id="modal-tts-btn" aria-label="Read content aloud">
+          <span class="speaker-icon">🔊</span>
+          <span>Listen Aloud</span>
+        </button>
+        <button type="button" class="btn btn-secondary" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
